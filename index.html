@@ -9,8 +9,20 @@
   .calendlyEmbed .calendly-inline-widget{height:610px!important}
 }
 
+
+/* PREMIUM CALENDLY PRESENTATION */
+.booking{position:relative;overflow:hidden;border-radius:26px;border:1px solid rgba(7,56,47,.10);background:linear-gradient(180deg,#fffefb 0%,#ffffff 100%);box-shadow:0 28px 80px rgba(7,56,47,.12)}
+.booking:before{content:"";position:absolute;width:220px;height:220px;right:-90px;top:-120px;border-radius:50%;background:rgba(184,240,74,.12);pointer-events:none;z-index:0}
+.booktop{position:relative;z-index:1;padding:22px 24px 18px;border-bottom:1px solid rgba(7,56,47,.08);background:linear-gradient(180deg,rgba(247,244,236,.72),rgba(255,255,255,.92))}
+.booktop strong{display:flex;align-items:center;gap:10px;font-size:14px;color:var(--g);letter-spacing:-.01em}.booktop strong:before{content:"";width:9px;height:9px;border-radius:50%;background:var(--l);box-shadow:0 0 0 4px rgba(184,240,74,.16);flex:0 0 auto}
+.calendlyEmbed{position:relative;z-index:1;padding:14px;background:radial-gradient(circle at 100% 0%,rgba(184,240,74,.08),transparent 26%),#fff}
+.calendlyEmbed .calendly-inline-widget{width:100%!important;min-width:0!important;height:560px!important;border-radius:18px;overflow:hidden;background:#fff;box-shadow:inset 0 0 0 1px rgba(7,56,47,.06)}
+.bookingMeta{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;padding:14px 18px 18px;border-top:1px solid rgba(7,56,47,.07);background:#fff;color:#7a8580;font-size:10.5px;position:relative;z-index:1}.bookingMeta span{display:flex;align-items:center;gap:6px}.bookingMeta span:before{content:"✓";color:#6f9629;font-weight:800}
+@media(max-width:900px){.booking{border-radius:22px}.calendlyEmbed{padding:10px}.calendlyEmbed .calendly-inline-widget{height:600px!important;border-radius:15px}}
+@media(max-width:600px){.booking{border-radius:18px;box-shadow:0 18px 48px rgba(7,56,47,.10)}.booktop{padding:16px 16px 14px}.booktop strong{font-size:13px}.calendlyEmbed{padding:8px}.calendlyEmbed .calendly-inline-widget{height:560px!important;border-radius:12px}.bookingMeta{gap:10px 16px;padding:12px 14px 15px;font-size:10px}}
+
 </style><link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 </head><body><nav><div class="wrap nav"><a class="logo" href="https://www.solveire.nl">SOLVEIRE</a><a class="back" href="https://www.solveire.nl">Terug naar Solveire →</a></div></nav><main><section class="hero"><div class="wrap grid"><div class="copy"><div class="kicker">Onze kennismaking</div><h1>Laten we jouw idee <em>verder brengen.</em></h1><div class="facts"><span class="fact">30 minuten</span><span class="fact">Online</span><span class="fact">Geen voorbereiding nodig</span></div><p class="lead">Kies een moment dat voor jou goed uitkomt. Dan duiken we tijdens onze kennismaking samen in je idee en kijken we naar de volgende stap.</p></div><div class="booking"><div class="booktop"><strong>Kies een moment dat jou uitkomt</strong></div><div class="embed calendlyEmbed" id="calendly-area">
-  <div class="calendly-inline-widget" data-url="https://calendly.com/solveire-info/30min?hide_gdpr_banner=1&background_color=ffffff&text_color=11221e&primary_color=07382f" style="min-width:320px;height:700px;width:100%;"></div>
-</div></div></div></section></main><footer><div class="wrap foot"><div><strong>SOLVEIRE</strong> · Digitale oplossingen die passen bij hoe jouw bedrijf werkt.</div><a href="mailto:info@solveire.nl">info@solveire.nl</a></div></footer><script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+  <div class="calendly-inline-widget" data-url="https://calendly.com/solveire-info/30min?hide_gdpr_banner=1&background_color=ffffff&text_color=11221e&primary_color=07382f" style="min-width:320px;width:100%;"></div>
+</div><div class="bookingMeta"><span>Direct bevestigd</span><span>30 minuten online</span><span>Wijzig of annuleer eenvoudig</span></div></div></div></div></section></main><footer><div class="wrap foot"><div><strong>SOLVEIRE</strong> · Digitale oplossingen die passen bij hoe jouw bedrijf werkt.</div><a href="mailto:info@solveire.nl">info@solveire.nl</a></div></footer><script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 </body></html>
