@@ -21,6 +21,45 @@
 @media(max-width:900px){.booking{border-radius:22px}.calendlyEmbed{padding:10px}.calendlyEmbed .calendly-inline-widget{height:600px!important;border-radius:15px}}
 @media(max-width:600px){.booking{border-radius:18px;box-shadow:0 18px 48px rgba(7,56,47,.10)}.booktop{padding:16px 16px 14px}.booktop strong{font-size:13px}.calendlyEmbed{padding:8px}.calendlyEmbed .calendly-inline-widget{height:560px!important;border-radius:12px}.bookingMeta{gap:10px 16px;padding:12px 14px 15px;font-size:10px}}
 
+
+/* CALENDLY — GEEN INTERNE SCROLL */
+.calendlyEmbed{
+  min-height:760px!important;
+  height:auto!important;
+  overflow:visible!important;
+}
+.calendlyEmbed .calendly-inline-widget{
+  height:760px!important;
+  min-height:760px!important;
+  overflow:visible!important;
+}
+.calendlyEmbed iframe{
+  height:760px!important;
+  min-height:760px!important;
+  overflow:hidden!important;
+}
+
+@media(max-width:900px){
+  .calendlyEmbed,
+  .calendlyEmbed .calendly-inline-widget,
+  .calendlyEmbed iframe{
+    height:760px!important;
+    min-height:760px!important;
+  }
+}
+
+@media(max-width:600px){
+  .calendlyEmbed{
+    padding:6px!important;
+  }
+  .calendlyEmbed,
+  .calendlyEmbed .calendly-inline-widget,
+  .calendlyEmbed iframe{
+    height:720px!important;
+    min-height:720px!important;
+  }
+}
+
 </style><link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 </head><body><nav><div class="wrap nav"><a class="logo" href="https://www.solveire.nl">SOLVEIRE</a><a class="back" href="https://www.solveire.nl">Terug naar Solveire →</a></div></nav><main><section class="hero"><div class="wrap grid"><div class="copy"><div class="kicker">Onze kennismaking</div><h1>Laten we jouw idee <em>verder brengen.</em></h1><div class="facts"><span class="fact">30 minuten</span><span class="fact">Online</span><span class="fact">Geen voorbereiding nodig</span></div><p class="lead">Kies een moment dat voor jou goed uitkomt. Dan duiken we tijdens onze kennismaking samen in je idee en kijken we naar de volgende stap.</p></div><div class="booking"><div class="booktop"><strong>Kies een moment dat jou uitkomt</strong></div><div class="embed calendlyEmbed" id="calendly-area">
   <div class="calendly-inline-widget" data-url="https://calendly.com/solveire-info/30min?hide_gdpr_banner=1&background_color=ffffff&text_color=11221e&primary_color=07382f" style="min-width:320px;width:100%;"></div>
